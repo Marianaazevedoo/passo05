@@ -1,0 +1,31 @@
+table {
+  font-family: Times New Roman ;
+  font-size: 170%;
+  width: 100%;
+  text-align: center; 
+  margin-left: auto;
+  margin-right: auto;
+}
+table, th, td {
+  border: 8px solid #a0bdbd;
+}
+
+th, td {
+  border: 4px solid #a0bdbd;
+  padding: 10px;
+}
+
+th {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 400%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ae8fc7;
+  color: white;
+}
+
+td {
+  padding-top: 5px;
+  padding-bottom: 5px; 
+  width: 50%;
+}
