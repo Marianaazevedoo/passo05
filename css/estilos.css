@@ -1,0 +1,31 @@
+table { /* Aqui criamos o estilo para a tabela*/ 
+  font-family: Times New Roman ;
+  font-size: 130%; /* Aqui defenimos o tamanho que queremos da letra*/
+  width: 100%; /* Aqui defenimos o tamanho que queremos*/
+  text-align: center; /* Aqui dizemos que queremos o texto ao centro*/
+  margin-left: auto;
+  margin-right: auto;
+}
+table, th, td {
+  border: 8px solid #a0bdbd; /* Define-se as bordas do cabeçalho, bordas da tabela e das células*/
+}
+
+th, td {
+  border: 4px solid #a0bdbd; /* Define-se as bordas do cabeçalho, bordas da tabela e das células*/
+  padding: 10px;
+}
+
+th { /* Aqui criamos o estilo do cabeçalho*/
+  font-family: Brush Script MT, Brush Script Std, cursive; /* Aqui defenimos o tipo de letra*/
+  font-size: 400%; /* Aqui defenimos o tamanho das letras*/
+  padding-top: 10px; /* Aqui defenimos a distância que está entre o que está escrito e "top" da célula*/
+  padding-bottom: 10px; /* Aqui defenimos a distância que está entre o que está escrito e o limite da célula*/
+  background-color: #ae8fc7; /* Aqui defenimos a cor de fundo*/
+  color: white; /* Aqui o cor da letra*/
+}
+
+td {
+  padding-top: 5px;
+  padding-bottom: 5px; 
+  width: 30%; /* Aqui defenimos o tamanho que queremos que cada célula tenha em comprimento*/
+}
